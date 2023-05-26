@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".presentation.game.GameFragment">
+
+    <GridLayout
+        android:id="@+id/lettersGridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+    </GridLayout>
+
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/firstKeyLineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:alignContent="flex_end"
+        app:alignItems="stretch"
+        app:flexDirection="row"
+        app:flexWrap="nowrap"
+        app:justifyContent="space_between">
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="Q" />
+
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="W" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="E" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="R" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="T" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="Y" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="U" />
+
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="I" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="O" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="P" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/secondKeyLineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:alignContent="flex_end"
+        app:alignItems="stretch"
+        app:flexDirection="row"
+        app:flexWrap="nowrap"
+        app:justifyContent="space_between">
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="A" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="S" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="D" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="F" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="G" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="H" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="J" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="K" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="L" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/thirdKeyLineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:alignContent="flex_end"
+        app:alignItems="stretch"
+        app:flexDirection="row"
+        app:flexWrap="nowrap"
+        app:justifyContent="space_between">
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="Z" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="X" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="C" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="V" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="B" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="N" />
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:text="M" />
+
+
+        <TextView
+            style="@style/KeyTextViewStyle"
+            android:layout_width="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="DELETE"
+            app:layout_flexGrow="10" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</LinearLayout>
